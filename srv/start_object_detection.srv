@@ -2,7 +2,11 @@
 
 # OD Model
 # '0': MULTI_CLASS_BOX - '1': MULTI_CLASS_BOX_ACCURATE - '2': HUMAN_BODY_FAST - '3': HUMAN_BODY_ACCURATE
+# '8': CUSTOM 
 int8 model
+
+# if custom model set engine to path of TensorRT engine file
+string engine
 
 # Minimum Confidence level
 float32 confidence
